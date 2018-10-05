@@ -1,0 +1,23 @@
+/** Let's leave this one be for now. We have Bootstrap, so that will
+ *  keep the site from looking horrendous until we have some content.
+ */
+
+ /* Color #1 */
+.bg-theme1 { background-color: red !important; }
+.border-theme1 { border-color: red !important; }
+.text-theme1 { color: red !important; }
+
+/* Color #2 */
+.bg-theme2 { background-color: green !important; }
+.border-theme2 { border-color: green !important; }
+.text-theme2 { color: green !important; }
+
+/* Color #3 */
+.bg-theme3 { background-color: blue !important; }
+.border-theme3 { border-color: blue !important; }
+.text-theme3 { color: blue !important; }
+
+/* Color #4 */
+.bg-theme4 { background-color: black !important; }
+.border-theme4 { border-color: black !important; }
+.text-theme4 { color: black !important; }
