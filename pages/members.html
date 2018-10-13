@@ -14,9 +14,9 @@
         <!--NAVIGATION-->
         <div class="navbar navbar-dark bg-dark">
             <!--Main Menu-->
-            <nav class="nav nav-pills">
+            <nav class="nav">
                 <!--Logo (Home Page)-->
-                <a class="nav-item nav-link" href="../index.html"><img id="logo" src="#"/></a>
+                <a class="nav-item nav-link" href="../index.html"><img id="logo" src="#"></a>
                 <!--About Us Page-->
                 <a class="nav-item nav-link text-white" href="about.html">About</a>
                 <!--Our Members Page-->
@@ -37,7 +37,7 @@
                 </a>
                 <!--Youtube-->
                 <a class="nav-item nav-link social-item " href="https://www.youtube.com/playlist?list=PLwz-H-GKSNroUflilfkaFpZ7QZWpRn8En">
-                    <img src="#" class="rounded-circle" alt="Youtube">
+                    <img src="#" class="rounded-circle" alt="YouTube">
                 </a>
                 <!--Subscribe-->
                 <a class="nav-item nav-link social-item" href="https://groups.mit.edu/webmoira/list/vgo-interest">
@@ -54,9 +54,55 @@
             Our Members
         </h1>
 
+        <!--MEMBER BIO-->
+        <div class="modal fade" id="memberBio" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-center" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Modal title</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="hidden"><strong>Role</strong> This line only shows for execs</p>
+                                <p><strong>Instruments</strong> Woodwind, String, Percussion</p>
+                                <p><strong>Class</strong> XXXX</p>
+                                <p class="hidden"><strong>Email</strong> This line only shows for execs?</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="#" class="img-fluid rounded">
+                            </div>
+                        </div>
+                        <p id="bio">A short bio about the person can go here. Anywhere between two and three sentences should be fine.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary disabled">&lt; Prev</button>
+                        <button type="button" class="btn btn-primary disabled">Next &gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!--CONTENT-->
         <div id="content" class="container">
-            
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" type="button" data-toggle="modal" data-target="#memberBio">
+                        <img src="#" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Name</h3>
+                            <h4 class="card-subtitle text-muted">Exec Role</h4>
+                            <p class="card-text">Main Instrument</p>
+                        </div>
+                    </div>
+                </div>
+                <!--and many more...-->
+            </div>
+
+
         </div>
 
 
