@@ -1,0 +1,22 @@
+{
+    "summary": {
+        "joshrapo": {
+            "name-first": "Joshua",
+            "name-last": "Rapoport",
+            "exec": true,
+            "arange": true,
+            "plays": "flute"
+        }
+    },
+
+    "detail": {
+        "joshrapo": {
+            "kerberos": "joshrapo",
+            "img": "../photos/members/joshrapo.jpeg",
+            "class": 2022,
+            "roles": ["web master"],
+            "plays": ["flute"],
+            "fact": "I can say 'I don't speak English' in four languages (including Python)."
+        }
+    }
+}
