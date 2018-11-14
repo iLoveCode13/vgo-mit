@@ -1,11 +1,69 @@
 {
     "summary": {
-        "joshrapo": {
-            "name-first": "Joshua",
-            "name-last": "Rapoport",
-            "exec": true,
-            "arange": true,
+        "sqliu": {
+            "name": "Sandra Liu",
+            "class": 2022,
+            "plays": "violin"
+        },
+        "zanderso": {
+            "name": "Zoe Anderson",
+            "class": 2021,
+            "plays": "clarinet"
+        },
+        "zygu": {
+            "name": "Joey Gu",
+            "class": "G",
+            "plays": "clarinet"
+        },
+        "a284": {
+            "name": "Allison Couch",
+            "class": 2021,
             "plays": "flute"
+        },
+        "lindrew": {
+            "name": "Andrew Lin",
+            "class": 2022,
+            "plays": "piano"
+        },
+        "temit": {
+            "name": "Temi Taylor",
+            "class": 2020,
+            "plays": "trumpet"
+        },
+        "rachelyz": {
+            "name": "Rachel Zhang",
+            "class": 2020,
+            "plays": "violin"
+        },
+        "mstang": {
+            "name": "Michael Tang",
+            "class": 2021,
+            "plays": "piano"
+        },
+        "mingfeid": {
+            "name": "Mingei Duan",
+            "class": 2022,
+            "plays": "trumpet"
+        },
+        "annhi": {
+            "name": "Kim-Anh-Nhi Nguyen",
+            "class": 2019,
+            "plays": "violin"
+        },
+        "joshrapo": {
+            "name": "Joshua Rapoport",
+            "class": 2022,
+            "plays": "flute"
+        },
+        "cpvogeli": {
+            "name": "Chase Vogeli",
+            "class": 2020,
+            "plays": "percussion"
+        },
+        "ignapb": {
+            "name": "Ignacio Perez Bedoya",
+            "class": 2020,
+            "plays": "guitar"
         }
     },
 
@@ -13,7 +71,7 @@
         "joshrapo": {
             "kerberos": "joshrapo",
             "img": "../photos/members/joshrapo.jpeg",
-            "class": 2022,
+            "semesters": 1,
             "roles": ["web master"],
             "plays": ["flute"],
             "fact": "I can say 'I don't speak English' in four languages (including Python)."
