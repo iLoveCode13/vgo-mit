@@ -1,80 +1,80 @@
 {
-    "summary": {
-        "sqliu": {
-            "name": "Sandra Liu",
-            "class": 2022,
-            "plays": "violin"
-        },
-        "zanderso": {
-            "name": "Zoe Anderson",
-            "class": 2021,
-            "plays": "clarinet"
-        },
-        "zygu": {
-            "name": "Joey Gu",
-            "class": "G",
-            "plays": "clarinet"
-        },
-        "a284": {
-            "name": "Allison Couch",
-            "class": 2021,
-            "plays": "flute"
-        },
-        "lindrew": {
-            "name": "Andrew Lin",
-            "class": 2022,
-            "plays": "piano"
-        },
-        "temit": {
-            "name": "Temi Taylor",
-            "class": 2020,
-            "plays": "trumpet"
-        },
-        "rachelyz": {
-            "name": "Rachel Zhang",
-            "class": 2020,
-            "plays": "violin"
-        },
-        "mstang": {
-            "name": "Michael Tang",
-            "class": 2021,
-            "plays": "piano"
-        },
-        "mingfeid": {
-            "name": "Mingei Duan",
-            "class": 2022,
-            "plays": "trumpet"
-        },
-        "annhi": {
-            "name": "Kim-Anh-Nhi Nguyen",
-            "class": 2019,
-            "plays": "violin"
-        },
-        "joshrapo": {
-            "name": "Joshua Rapoport",
-            "class": 2022,
-            "plays": "flute"
-        },
-        "cpvogeli": {
-            "name": "Chase Vogeli",
-            "class": 2020,
-            "plays": "percussion"
-        },
-        "ignapb": {
-            "name": "Ignacio Perez Bedoya",
-            "class": 2020,
-            "plays": "guitar"
-        }
+    "sqliu": {
+        "name": "Sandra Liu",
+        "class": 2022,
+        "plays": "violin",
+        "exec": true
     },
-
-    "detail": {
-        "joshrapo": {
-            "kerberos": "joshrapo",
-            "img": "../photos/members/joshrapo.jpeg",
-            "semesters": 1,
-            "roles": ["web master"],
-            "plays": ["flute"],
-            "fact": "I can say 'I don't speak English' in four languages (including Python)."
-        }
+    "zanderso": {
+        "name": "Zoe Anderson",
+        "class": 2021,
+        "plays": "clarinet",
+        "exec": false
+    },
+    "zygu": {
+        "name": "Joey Gu",
+        "class": "G",
+        "plays": "clarinet",
+        "exec": true
+    },
+    "a284": {
+        "name": "Allison Couch",
+        "class": 2021,
+        "plays": "flute",
+        "exec": false
+    },
+    "lindrew": {
+        "name": "Andrew Lin",
+        "class": 2022,
+        "plays": "piano",
+        "exec": true
+    },
+    "temit": {
+        "name": "Temi Taylor",
+        "class": 2020,
+        "plays": "trumpet",
+        "exec": false
+    },
+    "rachelyz": {
+        "name": "Rachel Zhang",
+        "class": 2020,
+        "plays": "violin",
+        "exec": false
+    },
+    "mstang": {
+        "name": "Michael Tang",
+        "class": 2021,
+        "plays": "piano",
+        "exec": false
+    },
+    "mingfeid": {
+        "name": "Mingei Duan",
+        "class": 2022,
+        "plays": "trumpet",
+        "exec": false
+    },
+    "annhi": {
+        "name": "Kim-Anh-Nhi Nguyen",
+        "class": 2019,
+        "plays": "violin",
+        "exec": false
+    },
+    "joshrapo": {
+        "name": "Joshua Rapoport",
+        "class": 2022,
+        "plays": "flute",
+        "exec": true
+    },
+    "cpvogeli": {
+        "name": "Chase Vogeli",
+        "class": 2020,
+        "plays": "percussion",
+        "exec": false
+    },
+    "ignapb": {
+        "name": "Ignacio Perez Bedoya",
+        "class": 2020,
+        "plays": "guitar",
+        "exec": true
     }
 }
