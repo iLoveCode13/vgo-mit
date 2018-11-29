@@ -8,22 +8,23 @@
     
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">        
         <link rel="stylesheet" type="text/css" href="styles/style.css">
+        
     </head>
 
     <body>
         <!--NAVIGATION-->
         <div class="navbar navbar-dark bg-dark">
             <!--Main Menu-->
-            <nav class="nav">
+            <nav class="nav nav-pills">
                 <!--Logo (Home Page)-->
-                <a class="nav-item nav-link" href="../index.html"><img id="logo" src="#"></a>
+                <a class="nav-item nav-link" href="../index.html"><img id="logo" src="#"/></a>
                 <!--About Us Page-->
                 <a class="nav-item nav-link text-white" href="about.html">About</a>
                 <!--Our Members Page-->
-                <a class="nav-item nav-link active text-white" href="members.html">Members</a>
-                <!--News and Events Page-->
+                <a class="nav-item nav-link active text-white" href="#">Members</a>
+                <!--Events and News Page-->
                 <a class="nav-item nav-link text-white" href="events.html">Events</a>
-                <!--Gallery and Scores Page-->
+                <!--Gallery Page-->
                 <a class="nav-item nav-link text-white" href="gallery.html">Gallery</a>
                 <!--Contact Us Page-->
                 <a class="nav-item nav-link text-white" href="contact.html">Contact</a>
@@ -35,12 +36,16 @@
                 <a class="nav-item nav-link social-item" href="#">
                     <img src="#" class="rounded-circle" alt="Facebook">
                 </a>
+                <!--SoundCloud-->
+                <a class="nav-item nav-link social-item " href="https://soundcloud.com/user-870392183">
+                    <img src="#" class="rounded-circle" alt="SoundCloud">
+                </a>
                 <!--Youtube-->
                 <a class="nav-item nav-link social-item " href="https://www.youtube.com/playlist?list=PLwz-H-GKSNroUflilfkaFpZ7QZWpRn8En">
                     <img src="#" class="rounded-circle" alt="YouTube">
                 </a>
                 <!--Subscribe-->
-                <a class="nav-item nav-link social-item" href="https://groups.mit.edu/webmoira/list/vgo-interest">
+                <a class="nav-item nav-link social-item" href="mailto:vgo-interest@mit.edu">
                     <img src="#" class="rounded-circle" alt="Subscribe">
                 </a>
             </nav>
@@ -88,26 +93,27 @@
         
         <!--CONTENT-->
         <div id="content" class="container">
-            <div class="row">
-                <div id="" class="col-4">
-                    <div class="card" type="button" data-toggle="modal" data-target="#memberBio">
-                        <img src="#" class="card-img-top">
-                        <div class="card-body">
-                            <h3 class="card-title">Name</h3>
-                            <div class="badge badge-primary">Exec</div>
-                            <h4 class="card-subtitle text-muted">Exec Role</h4>
-                            <p class="card-text">Main Instrument</p>
+            <!-- <div class="row"> -->
+                <template id="memberCard">
+                    <div id="" class="col-4">
+                        <div class="card" type="button" data-toggle="modal" data-target="#memberBio">
+                            <img src="#" class="card-img-top">
+                            <div class="card-body">
+                                <h3 id="name" class="card-title">Name</h3>
+                                <div id="exec" class="badge badge-primary">Exec</div>
+                                <h4 id="class" class="card-subtitle text-muted">Class of 20XX</h4>
+                                <p id="plays" class="card-text">Main Instrument</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </template>
                 <!--and many more...-->
-            </div>
-
-
+            <!-- </div> -->
         </div>
 
 
         <!--SCRIPTS-->
+        <script src="../scripts/members.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
