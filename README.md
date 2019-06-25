@@ -1,4 +1,4 @@
-# mit-vgo.github.io
+# vgo-mit.github.io
 Official website for the MIT Video Game Orchestra.
 
 1. I think it’d be nice to have profiles for current members, and maybe alumni? Perhaps including the following: name, picture, time in VGO, and some facts (music or video game related) and/or a short intro? Once we’ve decided on what exactly, we want we can email all members and ask them for data. We can come back to this.
